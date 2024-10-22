@@ -1,0 +1,55 @@
+.dashboard-container {
+  display: flex;
+  height: 120vh;
+  width: 160vh;
+  background-color: #121212;
+  color: #fff;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #282828;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #f0db4f;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 20px 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.summary-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.weather-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.weather-table th, .weather-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
